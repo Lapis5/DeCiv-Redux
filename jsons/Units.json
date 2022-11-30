@@ -2838,7 +2838,7 @@
 		"uniqueTo": "Barbarians",
 		"replaces": "Militia",
 		"movement": 2,
-		"strength": 36,
+		"strength": 30,
 		"interceptRange": 1,
 		"cost": 50,
 		"requiredTech": "Iron Working",
@@ -2872,7 +2872,7 @@
 		"replaces": "Gunman",
 		"range": 1,
 		"movement": 2,
-		"strength": 30,
+		"strength": 22,
 		"rangedStrength": 24,
 		"interceptRange": 1,
 		"cost": 50,
@@ -2890,7 +2890,7 @@
 		"uniqueTo": "Barbarians",
 		"replaces": "Soldier",
 		"movement": 2,
-		"strength": 40,
+		"strength": 30,
 		"interceptRange": 1,
 		"cost": 120,
 		"requiredTech": "Rifling",
@@ -2914,7 +2914,7 @@
 		"replaces": "Rifleman",
 		"range": 1,
 		"movement": 2,
-		"strength": 40,
+		"strength": 30,
 		"rangedStrength": 30,
 		"interceptRange": 1,
 		"cost": 120,
@@ -2924,7 +2924,6 @@
 		"hurryCostModifier": 20,
 		"uniques": ["Personnel"],
 		"promotions": [
-			"Skirmish",
 			"Raider",
 			"Entrench",
 			"Guerilla Warfare I",
@@ -2939,14 +2938,13 @@
 		"replaces": "NBC Infantry",
 		"upgradesTo": "Exo-Trooper",
 		"movement": 2,
-		"strength": 45,
+		"strength": 40,
 		"interceptRange": 1,
 		"cost": 225,
 		"requiredTech": "Combined Arms",
 		"hurryCostModifier": 20,
 		"uniques": ["Personnel"],
 		"promotions": [
-			"Skirmish",
 			"Raider",
 			"Entrench",
 			"Forage",
@@ -2975,7 +2973,6 @@
 			"[-20]% Strength <vs [Armor] units>"
 		],
 		"promotions": [
-			"Skirmish",
 			"Raider",
 			"Entrench",
 			"Extended Range",
@@ -2991,7 +2988,7 @@
 		"replaces": "Hussar",
 		"unitType": "Mounted",
 		"movement": 4,
-		"strength": 36,
+		"strength": 38,
 		"interceptRange": 1,
 		"cost": 75,
 		"requiredTech": "Redomestication",
@@ -3006,9 +3003,6 @@
 		"promotions": [
 			"Forage",
 			"Raider",
-			"Entrench",
-			"Guerilla Warfare I",
-			"Urban Warfare I",
 			"Ambush"
 		],
 		"hurryCostModifier": 20,
@@ -3020,7 +3014,7 @@
 		"replaces": "Cavalry",
 		"unitType": "Mounted",
 		"movement": 4,
-		"strength": 36,
+		"strength": 42,
 		"interceptRange": 1,
 		"cost": 120,
 		"requiredTech": "Rifling",
@@ -3034,10 +3028,8 @@
 		"promotions": [
 			"Forage",
 			"Raider",
-			"Entrench",
-			"Guerilla Warfare I",
-			"Urban Warfare I",
 			"Ambush"
+			"Shock"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -3050,7 +3042,7 @@
 		"range": 1,
 		"movement": 4,
 		"strength": 30,
-		"rangedStrength": 24,
+		"rangedStrength": 30,
 		"interceptRange": 1,
 		"cost": 80,
 		"requiredTech": "Redomestication",
@@ -3064,11 +3056,9 @@
 			"[-33]% Strength <vs cities> <when attacking>"
 		],
 		"promotions": [
-			"Skirmish",
+			"Forage",
 			"Raider",
-			"Entrench",
-			"Guerilla Warfare I",
-			"Urban Warfare I"
+			"Ambush",
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -3080,8 +3070,8 @@
 		"unitType": "Shooter",
 		"range": 1,
 		"movement": 4,
-		"strength": 30,
-		"rangedStrength": 24,
+		"strength": 35,
+		"rangedStrength": 35,
 		"interceptRange": 1,
 		"cost": 115,
 		"requiredTech": "Rifling",
@@ -3094,11 +3084,10 @@
 			"[-33]% Strength <vs cities> <when attacking>"
 		],
 		"promotions": [
-			"Skirmish",
+			"Forage",
 			"Raider",
-			"Entrench",
-			"Guerilla Warfare I",
-			"Urban Warfare I"
+			"Ambush",
+			"Shock"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
